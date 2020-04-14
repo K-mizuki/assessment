@@ -23,8 +23,8 @@ assesmentButton.onclick = function() {
     if (userName.length === 0) {
         return;
     }
-
-    removeALLChildren(resultdiv);
+　
+     removeALLChildren(resultdiv);
     removeALLChildren(twwetdiv);
 
 const header = document.createElement('h3')
